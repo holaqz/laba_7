@@ -125,7 +125,7 @@ namespace TestProgram
         [TestMethod]
         public void TestIndexOfSubstring_Found()
         {
-            Assert.AreEqual(2, Utility.IndexOfSubstring("hello", "lihyhjhhjlo"));
+            Assert.AreEqual(2, Utility.IndexOfSubstring("hello", "llo"));
         }
 
         [TestMethod]
